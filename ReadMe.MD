@@ -4,4 +4,4 @@
 [Install MinGW](https://www.youtube.com/watch?v=Ubfgi4NoTPk)
 ## Other useful commands
 To stop an already running code
-'ctrl + alt + m'
+`ctrl + alt + m`
