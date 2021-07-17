@@ -37,12 +37,14 @@ int main(int argc, char const *argv[])
     printf("Book1.publicationId : %d\n\n", Book1.publicationId );
     
     print_book_2(Book2);
-     print_book_3(&Book2);
+    print_book_3(&Book2);
 
 	 
 	return 0;
 }
-void print_book_2(struct Book book){
+
+void print_book_2(struct Book book)
+{
 
     printf("Book2.title         : %s\n", book.title );
     printf("Book2.author        : %s\n", book.author);
@@ -50,7 +52,8 @@ void print_book_2(struct Book book){
     printf("Book2.publicationId : %d\n\n", book.publicationId );
 }
 
-void print_book_3(struct Book *book3){
+void print_book_3(struct Book *book3)
+{
 
     printf("Book2.title         : %s\n", book3 -> title );
     printf("Book2.author        : %s\n", book3 -> author);

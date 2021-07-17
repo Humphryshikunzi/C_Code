@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
     int age;
     printf("Hello Dudes, am here again to write C Code\n");
     printf("Enter your age\n");
-    scanf("%d",&age);
+    scanf("%d", &age);
     printf("Humphry Age is %d\n", age);
     return 0;
 }

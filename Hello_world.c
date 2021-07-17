@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <math.h>
+
 #define length 100
 #define width 20
+
 int  main()
 {
 	printf("My name is Humphry Shikunzi Morton\n");
@@ -26,20 +28,25 @@ void conditional_comparison()
 	int a = 40;
 	char grade = 'B';
 	int marks = 65;
-	if(a>40){
+	if(a>40)
+	{
 		printf("A is greater than 40\n");
 	}
-	else if(a<40){
+	else if(a<40)
+	{
 		printf("A is less than 40\n");
 	}
-	else{
+	else
+	{
 		printf("A is equal to 40\n");
 	}
 
-	switch(grade){
+	switch(grade)
+	{
 		case 'B':
 		printf("The average grade for the student was %c\n", 'B' );
-		switch(marks){
+		switch(marks)
+		{
 			case 70:
 			printf("The average marks for the student is less than 65\n");
 			break;
@@ -62,7 +69,8 @@ void conditional_comparison()
 
 }
 
-void storage(){
+void storage()
+{
 	int a = 4;
 	short b ;
 	double c ;
@@ -83,18 +91,22 @@ void storage(){
 	printf("The value of e is %d\n",e );
 
 }
-void loops(){
+void loops()
+{
 	int a = 10;
-	while(a<20){
+	while(a<20)
+	{
 		printf("The value of  A is %d\n",a );
 		a++;
 	}
+
 	for (int i = 0; i <50; ++i)
 	{
 		printf("The value for i is %d\n",i );
 	}
 	
-	do{
+	do
+	{
 		printf("The values of a in do loop is %d\n", a);
 		a++;
 	}

@@ -17,6 +17,7 @@ int *random_numbers();
 
 	//Multidimentional arrays
 	int values[5][2] = {{4,5},{8,9},{35,78},{87,9},{54,7}};
+
 	for (int i = 0; i < 5; ++i)
 	{
 		for (int j = 0; j < 2; ++j)
@@ -33,7 +34,8 @@ int *random_numbers();
 
   }
 // Arrays as parameters
-double average(int array[5], int size){
+double average(int array[5], int size)
+{
   double avrg;
   double sum=0;
 
